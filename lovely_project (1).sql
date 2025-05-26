@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th5 25, 2025 lúc 09:49 PM
+-- Thời gian đã tạo: Th5 26, 2025 lúc 05:50 PM
 -- Phiên bản máy phục vụ: 10.4.32-MariaDB
 -- Phiên bản PHP: 8.0.30
 
@@ -39,8 +39,12 @@ CREATE TABLE `tasks` (
 --
 
 INSERT INTO `tasks` (`id`, `client_id`, `status`, `file_result`) VALUES
-(4, 'user', 'Finished', 'user_5.txt'),
-(5, 'user', 'Finished', 'user_5.txt');
+(4, 'user', 'Finished', 'user_2.txt'),
+(5, 'user', 'Finished', 'user_2.txt'),
+(6, 'user', 'Finished', 'user_2.txt'),
+(7, 'user', 'Finished', 'user_2.txt'),
+(8, 'user', 'Finished', 'user_2.txt'),
+(9, 'user', 'Finished', 'user_2.txt');
 
 -- --------------------------------------------------------
 
@@ -87,7 +91,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT cho bảng `tasks`
 --
 ALTER TABLE `tasks`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT cho bảng `users`
